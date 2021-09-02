@@ -1,0 +1,8 @@
+version: '2.0'
+
+services:
+  app:
+    image: teste-docker-nodejs
+    build: .
+    ports: 
+      - 8080:8080
